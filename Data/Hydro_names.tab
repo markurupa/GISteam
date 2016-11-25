@@ -1,0 +1,16 @@
+!table
+!version 300
+!charset WindowsCyrillic
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 4
+    FULL_NAME Char (64) ;
+    FC Char (1) ;
+    type Char (5) ;
+    fulle_explanation Char (250) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "9c71e231-1571-495f-a679-ca197a4cfcb6"
+end_metadata

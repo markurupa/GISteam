@@ -1,0 +1,141 @@
+!Workspace
+!Version 1200
+!Charset WindowsCyrillic
+Open Table "Block" As Block Interactive
+Open Table "Bound" As Bound Interactive
+Open Table "Eng" As Eng Interactive
+Open Table "Hydro" As Hydro Interactive
+Open Table "Hydro_names" As Hydro_names Interactive
+Open Table "railways" As railways Interactive
+Open Table "roads" As roads Interactive
+Open Table "settle_names" As settle_names Interactive
+Open Table "Settlement" As Settlement Interactive
+Open Table "C:\Users\Mark\Desktop\Таня\Бангладеш\sit_frame_2_100K" As sit_frame_2_100K Interactive
+Open Table "C:\Users\Mark\Desktop\Таня\Бангладеш\google\G45_23Goog2m.TAB" As G45_23Goog2m Interactive
+Open Table "C:\Users\Mark\Desktop\Таня\Бангладеш\G45_17Goog2m.TAB" As G45_17Goog2m Interactive
+Map From settle_names,railways,Hydro_names,sit_frame_2_100K,Hydro
+  ,Eng,Block,roads,Bound,Settlement,G45_17Goog2m,G45_23Goog2m
+  Position (0.0520833,0.0520833) Units "in"
+  Width 5.29167 Units "in" Height 2.86458 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On Snap Mode On Enhanced On Smooth Text Antialias Image High
+Set Map
+  Move Nodes 0
+  CoordSys Earth Projection 8, 104, "m", 87, 0, 0.9996, 500000, 0
+  Center (656682.235,2865734.77)
+  Zoom 1325.283303 Units "m"
+  Preserve Zoom Display Zoom
+  Distance Units "m" Area Units "sq m" XY Units "degree"
+  Distance Type Cartesian
+Set Map Layer 0 Selectable
+Set Map
+  Layer 1
+    Display Off
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (34,16776960,14) Line (1,2,0) Font ("Tahoma",0,9,0)
+    Label Line Arrow Position Right Font ("Tahoma",0,9,0) Pen (1,2,0) 
+      With FULL_NAME
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 2
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Tahoma",0,9,0)
+    Label Line Arrow Position Right Font ("Tahoma",0,9,0) Pen (1,2,0) 
+      With Type
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 3
+    Display Global
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (34,65535,14) Line (1,2,0) Font ("Tahoma",0,9,0)
+    Label Line Arrow Position Right Font ("Tahoma",0,9,0) Pen (1,2,0) 
+      With FULL_NAME
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 4
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Tahoma",0,9,0)
+    Selectable Off
+    Label Line None Position Center Font ("Tahoma",0,9,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 5
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Tahoma",0,9,0)
+    Label Line Arrow Position Right Font ("Tahoma",0,9,0) Pen (1,2,0) 
+      With Type
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 6
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Tahoma",0,9,0)
+    Label Line Arrow Position Right Font ("Tahoma",0,9,0) Pen (1,2,0) 
+      With Type
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 7
+    Display Global
+    Global Pen (2,2,14708736) Brush (1,16777215,16777215) Symbol (46,16744448,14) Line (1,2,0) Font ("Tahoma",0,9,0)
+    Label Line Arrow Position Right Font ("Tahoma",0,9,0) Pen (1,2,0) 
+      With Code_pr
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 8
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Tahoma",0,9,0)
+    Label Line Arrow Position Above Font ("Tahoma",0,9,0) Pen (1,2,0) 
+      With Type
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 9
+    Display Off
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Tahoma",0,9,0)
+    Label Line None Position Center Font ("Tahoma",0,9,0) Pen (1,2,0) 
+      With Type_1
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 10
+    Display Graphic
+    Global Pen (2,2,16711935) Brush (1,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Tahoma",0,9,0)
+    Label Line Arrow Position Right Font ("Tahoma",256,9,0,16777215) Pen (1,2,0) 
+      With Name_e
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 11
+    Display Off
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Tahoma",0,9,0)
+    Selectable Off
+    Zoom (0.05, 20) Units "km" 
+  contrast 50 
+  brightness 50 
+  alpha 255 
+    transparency off 
+  color 0 
+    grayscale off 
+  Layer 12
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Tahoma",0,9,0)
+    Selectable Off
+    Zoom (0.05, 20) Units "km" 
+  contrast 50 
+  brightness 50 
+  alpha 255 
+    transparency off 
+  color 0 
+    grayscale off 
+Set CoordSys Earth Projection 1, 104
+Set Map Layer 0 Editable
+Create Ellipse (88.416465,25.952908) (88.422467,25.958304)
+    Pen (2,2,16734240) 
+    Brush (1,0,16777215)
+Create Ellipse (88.549184,25.996706) (88.555188,26.002102)
+    Pen (2,2,16734240) 
+    Brush (1,0,16777215)
+Set CoordSys Earth
+Set Map Layer 7 Editable
+Set Map Label Selection Off 
+Set Window FrontWindow() Printer
+ Name "MapInfo PDF Printer Version 15.0" Orientation Portrait Copies 1
+ Papersize 9
+Dim WorkspaceMaximizedWindow As Integer
+WorkspaceMaximizedWindow = Frontwindow()
+Set Window WorkspaceMaximizedWindow Max
+Undim WorkspaceMaximizedWindow

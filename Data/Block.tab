@@ -1,0 +1,27 @@
+!table
+!version 300
+!charset WindowsCyrillic
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 3
+    Code Integer ;
+    Topocode Integer ;
+    Code_pr Char (10) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "8d4cb221-bd1e-417d-8709-c56cc5290707"
+"\SNAPTHIN" = ""
+"\SNAPTHIN\EnableSnap" = "FALSE"
+"\SNAPTHIN\Node" = "0"
+"\SNAPTHIN\Vec" = "0"
+"\SNAPTHIN\TolUnit" = "7"
+"\SNAPTHIN\EnableThin" = "TRUE"
+"\SNAPTHIN\Bend" = "0.2"
+"\SNAPTHIN\Dist" = "0.2"
+"\SNAPTHIN\ThinUnit" = "7"
+"\SNAPTHIN\EnableArea" = "FALSE"
+"\SNAPTHIN\Area" = "0"
+"\SNAPTHIN\AreaUnit" = "21"
+end_metadata

@@ -1,0 +1,19 @@
+!table
+!version 300
+!charset WindowsCyrillic
+!edit_version 650
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 6
+    Code Integer ;
+    Type Char (20) ;
+    Name Char (100) ;
+    Name_e Char (100) ;
+    Topocode Integer ;
+    Code_pr Char (10) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "614540d1-1577-4e96-8f3f-078c7ef71d71"
+end_metadata
